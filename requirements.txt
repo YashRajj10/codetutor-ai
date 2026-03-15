@@ -1,43 +1,38 @@
 # Core App
-streamlit==1.32.2
+streamlit>=1.40.0
 python-dotenv==1.0.1
 
 # FastAPI Backend
 fastapi>=0.110.0
 uvicorn>=0.29.0
 
-# LLM (Gemini) — free tier: gemini-2.5-flash-lite-preview-06-17
+# LLM (Gemini)
 google-generativeai>=0.7.0
 
 # Vector Database
-chromadb==0.4.22
+chromadb>=0.5.0
 
 # Embeddings
-sentence-transformers==2.6.1
-torch>=2.0.0
+sentence-transformers>=3.0.0
 
 # PDF Processing
-PyMuPDF==1.24.3
+PyMuPDF>=1.24.3
 
 # Image Processing & OCR
-pillow==10.2.0
+pillow>=10.4.0
 pytesseract==0.3.10
-# NOTE: also install Tesseract at OS level:
-#   Ubuntu:  sudo apt install tesseract-ocr
-#   macOS:   brew install tesseract
-#   Windows: https://github.com/UB-Mannheim/tesseract/wiki
 
 # Data Handling
-pandas==2.2.0
-numpy==1.26.4
+pandas>=2.2.0
+numpy>=2.0.0
 
 # ML / Analytics
-scikit-learn==1.4.0
+scikit-learn>=1.5.0
 
 # Utilities
-tqdm==4.66.1
+tqdm>=4.66.1
 
 # New Features
-fpdf2>=2.7.0              # PDF export for Study Notes (Feature 4)
-httpx>=0.27.0             # GitHub code fetching (Feature 9)
-python-multipart>=0.0.9   # Required by FastAPI for file uploads and form data
+fpdf2>=2.7.0
+httpx>=0.27.0
+python-multipart>=0.0.9
