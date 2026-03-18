@@ -1,4 +1,3 @@
 ## ▶ How to Run
 ```bash
-pip install -r requirements.txt
-streamlit run app.py
+uvicorn fastapi_backend:app --reload --port 8000
